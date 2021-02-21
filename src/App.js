@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Example from './components/Example'
+import HelloWorld from './components/HelloWorld'
 
 function App() {
   const user1 = {
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <Example></Example>
+      <HelloWorld></HelloWorld>
     </div>
   );
 }
