@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld'
 import Greet from './components/Greet'
 import Button1 from './components/Button1'
 import Button2 from './components/Button2'
-
+import Card from './components/Card'
 function App() {
   const user1 = {
     name: {
@@ -28,6 +28,9 @@ function App() {
       <Greet user1={user1} user2={user2} ></Greet>
       <Button1></Button1>
       <Button2></Button2>
+      <Card user1={user1} user2={user2}></Card>
+      <ColorPalette></ColorPalette>
+
     </div>
   );
 }
